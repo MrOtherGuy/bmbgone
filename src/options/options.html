@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <script src="options.js"></script>
+    <style>
+      :root{ color-scheme: light dark; background-color: Canvas; color: CanvasText }
+      body{ min-height: 250px }
+      h2{ margin-top: 0 }
+      label{ font-size: 1.2rem; height: 2rem; display: inline-block }
+      li{ list-style: none }
+    </style>
+  </head>
+<body>
+  <h2>Remove duplicate bookmarks</h2>
+  <p>Adds a context menu entry to remove duplicate bookmarks within a folder.</p>
+  <h2>Matching mode</h2>
+  <ol>
+    <li><label><input type="radio" id="url-only-radio" name="match-mode" value="url-only">Match URL only</label></li>
+    <li><label><input type="radio" id="title-only-radio" name="match-mode" value="title-only">Match title only</label></li>
+    <li><label><input type="radio" id="url-and-title-radio" name="match-mode" value="url-and-title">Match both url and title</label></li>
+  </ol>
+</body>
+</html>
