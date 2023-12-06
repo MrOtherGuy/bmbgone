@@ -1,3 +1,3 @@
-# custom_captions_webExt
+# Bookmarks-be-gone!
 
-Three small extensions for Firefox to create buttons for each caption button.
+Small extension to remove duplicated bookmarks within a specific folder
